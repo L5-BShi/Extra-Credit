@@ -1,0 +1,87 @@
+COST: 88.5
+
+
+Duplications
+Gene                L. Bound            U. Bound            
+=================== =================== =================== 
+n115                Bilateria           N/A
+n95                 Bilateria           N/A
+n37                 Lanatina            Lophotrochozoa
+n94                 Bilateria           N/A
+n90                 Bilateria           N/A
+n52                 Avaga               n209
+n46                 Avaga               n209
+n42                 Avaga               n209
+n45                 Avaga               n209
+n51                 Avaga               n209
+n49                 Avaga               n209
+n89                 Bilateria           N/A
+n87                 Bilateria           N/A
+n85                 Bilateria           N/A
+n73                 Bilateria           N/A
+n55                 Avaga               n209
+n58                 Bbelcheri           Chordata
+n72                 Chordata            Deuterostomia
+n70                 Chordata            Deuterostomia
+n62                 Cintestinalis       n199
+n69                 Hsapiens            n199
+n67                 Hsapiens            n199
+n84                 Protostomia         Bilateria
+n81                 Lanatina            Lophotrochozoa
+n93                 Egranulosus         n209
+n114                Bilateria           N/A
+n110                Bilateria           N/A
+n98                 Hsapiens            n199
+n106                Myessoensis         Lophotrochozoa
+n104                Myessoensis         Lophotrochozoa
+n113                Dmelanogaster       Protostomia
+Duplications: 31 
+
+
+Losses
+Species             No. of Losses  
+=================== ============== 
+Bilateria           0
+Cintestinalis       3
+Lophotrochozoa      3
+Egranulosus         2
+Avaga               1
+Dmelanogaster       6
+Protostomia         4
+Hsapiens            1
+n209                4
+Chordata            2
+Deuterostomia       4
+Lanatina            0
+n199                3
+Myessoensis         1
+Aplanci             4
+Bbelcheri           3
+Spiralia            1
+
+Losses: 42
+
+
+Species             Duplications   cD_Nodes       Transfers_from Transfers_to   Losses         
+=================== ============== ============== ============== ============== ============== 
+Bilateria           10             0              0              0              0              
+Cintestinalis       1              0              0              0              3              
+Lophotrochozoa      0              0              0              0              3              
+Egranulosus         1              0              0              0              2              
+Avaga               7              0              0              0              1              
+Dmelanogaster       1              0              0              0              6              
+Protostomia         1              0              0              0              4              
+Hsapiens            3              0              0              0              1              
+n209                0              0              0              0              4              
+Chordata            2              0              0              0              2              
+Deuterostomia       0              0              0              0              4              
+Lanatina            2              0              0              0              0              
+n199                0              0              0              0              3              
+Myessoensis         2              0              0              0              1              
+Aplanci             0              0              0              0              4              
+Bbelcheri           1              0              0              0              3              
+Spiralia            0              0              0              0              1              
+
+Duplications: 31
+Losses: 42
+
