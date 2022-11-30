@@ -1,0 +1,351 @@
+IQ-TREE multicore version 2.1.1 COVID-edition for Linux 64-bit built Aug 22 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    ip-172-31-84-199.ec2.internal (AVX2, FMA3, 7 GB RAM)
+Command: iqtree -s /home/ec2-user/labs/lab5-L5-BShi/AMPL/AMPL.homologs.al.fas -bb 1000 -nt 2
+Seed:    49041 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Sep 23 19:34:26 2022
+Kernel:  AVX+FMA - 2 threads (2 CPU cores detected)
+
+Reading alignment file /home/ec2-user/labs/lab5-L5-BShi/AMPL/AMPL.homologs.al.fas ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 41 sequences with 2650 columns, 981 distinct patterns
+713 parsimony-informative, 167 singleton sites, 1770 constant sites
+                                                    Gap/Ambiguity  Composition  p-value
+   1  Hsapiens.NP_055977.3_long-chain-fatty-acid--CoA_li   72.68%    passed     47.67%
+   2  Hsapiens.NP_112186.3_long-chain-fatty-acid--CoA_li   74.87%    passed     20.60%
+   3  Bbelcheri.LOC109482367_longchainfattyacidCoA_ligas   72.11%    passed     10.20%
+   4  Aplanci.LOC110987625_longchainfattyacidCoA_ligase_   71.32%    passed     35.91%
+   5  Lanatina.XP_013385717.1_longchainfattyacidCoA_liga   68.91%    failed      0.34%
+   6  Myessoensis.XP_021368563.1_longchainfattyacidCoA_l   73.62%    failed      2.88%
+   7  Myessoensis.XP_021368611.1_longchainfattyacidCoA_l   74.23%    passed     75.70%
+   8  Myessoensis.XP_021368673.1_longchainfattyacidCoA_l   70.45%    failed      0.12%
+   9  Dmelanogaster.bgm_bubblegum_isoform_A                74.87%    passed     20.16%
+  10  Dmelanogaster.hll_heimdall                           74.30%    failed      1.04%
+  11  Hsapiens.NP_001305439.1_long-chain-fatty-acid--CoA   74.72%    passed     58.15%
+  12  Lanatina.XP_013383556.1_longchainfattyacidCoA_liga   73.17%    passed     82.16%
+  13  Lanatina.XP_013392775.1_longchainfattyacidCoA_liga   73.17%    passed     83.77%
+  14  Avaga.UJR25501.1_hypothetical_protein_I4U23_006847   74.19%    failed      0.28%
+  15  Avaga.UJR32409.1_hypothetical_protein_I4U23_019871   74.08%    failed      0.09%
+  16  Avaga.UJR32742.1_hypothetical_protein_I4U23_020201   74.49%    failed      1.03%
+  17  Avaga.UJR34834.1_hypothetical_protein_I4U23_027615   12.45%    failed      0.00%
+  18  Egranulosus.XP_024351612.1_LongchainfattyacidCoA_l   74.38%    passed     61.06%
+  19  Egranulosus.XP_024352788.1_LongchainfattyacidCoA_l   71.47%    failed      2.82%
+  20  Avaga.UJR18225.1_hypothetical_protein_I4U23_005124   78.75%    passed     20.53%
+  21  Avaga.UJR15662.1_hypothetical_protein_I4U23_002597   74.68%    passed     14.64%
+  22  Avaga.UJR15664.1_hypothetical_protein_I4U23_002598   74.57%    passed     45.94%
+  23  Avaga.UJR15018.1_hypothetical_protein_I4U23_001995   73.36%    passed     71.01%
+  24  Avaga.UJR31657.1_hypothetical_protein_I4U23_019138   73.17%    passed     91.74%
+  25  Aplanci.LOC110983877_longchainfattyacidCoA_ligase_   73.13%    passed     98.81%
+  26  Dmelanogaster.CG3961_uncharacterized_protein_Dmel_   73.43%    passed     59.63%
+  27  Bbelcheri.LOC109466554_longchainfattyacidCoA_ligas   71.51%    failed      2.04%
+  28  Cintestinalis.LOC100185939_longchainfattyacidCoA_l   73.62%    passed     44.74%
+  29  Cintestinalis.LOC100175746_longchainfattyacidCoA_l   72.60%    passed     27.70%
+  30  Aplanci.LOC110973886_longchainfattyacidCoA_ligase_   74.45%    passed     96.17%
+  31  Hsapiens.NP_976313.1_long-chain-fatty-acid--CoA_li   74.23%    passed     85.74%
+  32  Hsapiens.NP_001986.2_long-chain-fatty-acid--CoA_li   73.66%    passed     61.13%
+  33  Hsapiens.NP_001009185.1_long-chain-fatty-acid--CoA   72.75%    passed     65.51%
+  34  Bbelcheri.LOC109485423_longchainfattyacidCoA_ligas   73.51%    passed     81.24%
+  35  Lanatina.XP_013381850.1_longchainfattyacidCoA_liga   74.30%    passed     81.90%
+  36  Myessoensis.XP_021350485.1_longchainfattyacidCoA_l   74.26%    passed     49.55%
+  37  Bbelcheri.LOC109470327_longchainfattyacidCoA_ligas   75.06%    passed     33.44%
+  38  Bbelcheri.LOC109479541_longchainfattyacidCoA_ligas   74.30%    passed     84.96%
+  39  Myessoensis.XP_021358594.1_longchainfattyacidCoA_l   74.11%    passed     98.28%
+  40  Lanatina.XP_013395506.1_longchainfattyacidCoA_liga   73.17%    passed     99.35%
+  41  Lanatina.XP_013395507.1_longchainfattyacidCoA_liga   73.51%    passed     99.44%
+WARNING: 40 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                72.09%  10 sequences failed composition chi2 test (p-value<5%; df=19)
+
+NOTE: Restoring information from model checkpoint file /home/ec2-user/labs/lab5-L5-BShi/AMPL/AMPL.homologs.al.fas.model.gz
+
+CHECKPOINT: Initial tree restored
+Perform fast likelihood tree search using LG+I+G model...
+CHECKPOINT: Tree restored, LogL: -51311.649
+NOTE: ModelFinder requires 67 MB RAM!
+ModelFinder will test up to 546 protein models (sample size: 2650) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            53329.406    79  106816.812   106821.730   107281.515
+  2  LG+I          52983.722    80  106127.445   106132.490   106598.030
+  3  LG+G4         51355.136    80  102870.272   102875.317   103340.857
+  4  LG+I+G4       51310.206    81  102782.412   102787.585   103258.879
+  5  LG+R2         51701.121    81  103564.243   103569.416   104040.710
+  6  LG+R3         51394.754    83  102955.509   102960.943   103443.741
+  7  LG+R4         51335.930    85  102841.860   102847.562   103341.857
+  8  LG+R5         51281.416    87  102736.832   102742.808   103248.593
+  9  LG+R6         51276.993    89  102731.985   102738.243   103255.511
+ 21  LG+F+R5       51182.486    106 102576.971   102585.891   103200.497
+ 22  LG+F+R6       51179.546    108 102575.092   102584.358   103210.382
+ 34  WAG+R5        51525.340    87  103224.680   103230.656   103736.441
+ 35  WAG+R6        51523.654    89  103225.308   103231.566   103748.834
+ 47  WAG+F+R5      51406.941    106 103025.883   103034.803   103649.408
+ 48  WAG+F+R6      51404.536    108 103025.073   103034.338   103660.363
+ 60  JTT+R5        51742.106    87  103658.212   103664.188   104169.973
+ 61  JTT+R6        51740.527    89  103659.054   103665.312   104182.580
+ 73  JTT+F+R5      51663.223    106 103538.447   103547.367   104161.972
+ 74  JTT+F+R6      51661.142    108 103538.283   103547.549   104173.573
+ 86  JTTDCMut+R5   51735.511    87  103645.021   103650.998   104156.783
+ 87  JTTDCMut+R6   51733.940    89  103645.879   103652.137   104169.405
+ 99  JTTDCMut+F+R5 51657.636    106 103527.272   103536.192   104150.797
+100  JTTDCMut+F+R6 51655.547    108 103527.094   103536.359   104162.384
+112  DCMut+R5      52079.490    87  104332.981   104338.957   104844.742
+113  DCMut+R6      52074.748    89  104327.497   104333.755   104851.023
+125  DCMut+F+R5    51841.992    106 103895.983   103904.904   104519.509
+126  DCMut+F+R6    51837.619    108 103891.239   103900.504   104526.529
+138  VT+R5         51557.402    87  103288.805   103294.781   103800.566
+139  VT+R6         51557.058    89  103292.116   103298.373   103815.642
+151  VT+F+R5       51482.309    106 103176.618   103185.538   103800.143
+152  VT+F+R6       51481.993    108 103179.986   103189.251   103815.276
+164  PMB+R5        51748.485    87  103670.969   103676.946   104182.731
+WARNING: Log-likelihood -51749.6 of PMB+R6 worse than PMB+R5 -51748.5
+165  PMB+R6        51749.605    89  103677.211   103683.468   104200.737
+177  PMB+F+R5      51721.512    106 103655.023   103663.944   104278.549
+178  PMB+F+R6      51722.022    108 103660.044   103669.310   104295.334
+190  Blosum62+R5   51704.295    87  103582.590   103588.567   104094.351
+191  Blosum62+R6   51702.345    89  103582.689   103588.947   104106.215
+203  Blosum62+F+R5 51698.036    106 103608.071   103616.991   104231.596
+204  Blosum62+F+R6 51695.914    108 103607.829   103617.094   104243.119
+216  Dayhoff+R5    52079.271    87  104332.541   104338.518   104844.303
+217  Dayhoff+R6    52074.079    89  104326.158   104332.415   104849.684
+229  Dayhoff+F+R5  51842.085    106 103896.169   103905.090   104519.695
+230  Dayhoff+F+R6  51837.696    108 103891.392   103900.658   104526.682
+242  mtREV+R5      53988.779    87  108151.558   108157.535   108663.320
+243  mtREV+R6      53970.288    89  108118.576   108124.834   108642.102
+255  mtREV+F+R5    52084.207    106 104380.413   104389.333   105003.939
+256  mtREV+F+R6    52077.397    108 104370.794   104380.060   105006.084
+268  mtART+R5      54122.032    87  108418.064   108424.041   108929.826
+269  mtART+R6      54094.415    89  108366.829   108373.087   108890.355
+281  mtART+F+R5    52222.076    106 104656.153   104665.073   105279.678
+282  mtART+F+R6    52207.937    108 104631.874   104641.140   105267.164
+294  mtZOA+R5      53215.389    87  106604.778   106610.755   107116.540
+295  mtZOA+R6      53183.290    89  106544.581   106550.838   107068.107
+307  mtZOA+F+R5    51805.317    106 103822.634   103831.554   104446.159
+308  mtZOA+F+R6    51797.010    108 103810.020   103819.286   104445.310
+320  mtMet+R5      53834.505    87  107843.010   107848.987   108354.772
+321  mtMet+R6      53811.358    89  107800.716   107806.973   108324.242
+333  mtMet+F+R5    52013.283    106 104238.567   104247.487   104862.092
+334  mtMet+F+R6    52004.289    108 104224.579   104233.845   104859.869
+346  mtVer+R5      54385.042    87  108944.084   108950.060   109455.845
+347  mtVer+R6      54358.366    89  108894.733   108900.991   109418.259
+359  mtVer+F+R5    52667.645    106 105547.289   105556.209   106170.814
+360  mtVer+F+R6    52658.381    108 105532.762   105542.028   106168.052
+372  mtInv+R5      54112.961    87  108399.922   108405.898   108911.683
+373  mtInv+R6      54095.266    89  108368.531   108374.789   108892.057
+385  mtInv+F+R5    51723.378    106 103658.756   103667.676   104282.282
+386  mtInv+F+R6    51715.644    108 103647.289   103656.554   104282.579
+398  mtMAM+R5      54830.902    87  109835.803   109841.780   110347.565
+399  mtMAM+R6      54791.481    89  109760.961   109767.219   110284.487
+411  mtMAM+F+R5    52913.827    106 106039.653   106048.573   106663.178
+412  mtMAM+F+R6    52907.491    108 106030.981   106040.247   106666.271
+424  HIVb+R5       52720.041    87  105614.083   105620.059   106125.844
+425  HIVb+R6       52708.408    89  105594.815   105601.073   106118.341
+437  HIVb+F+R5     52472.476    106 105156.951   105165.872   105780.477
+438  HIVb+F+R6     52459.449    108 105134.899   105144.165   105770.189
+450  HIVw+R5       54943.416    87  110060.832   110066.809   110572.594
+451  HIVw+R6       54932.937    89  110043.874   110050.132   110567.400
+463  HIVw+F+R5     54000.370    106 108212.740   108221.660   108836.266
+464  HIVw+F+R6     53992.040    108 108200.080   108209.346   108835.370
+476  FLU+R5        52787.650    87  105749.300   105755.277   106261.062
+477  FLU+R6        52775.717    89  105729.435   105735.693   106252.961
+489  FLU+F+R5      52471.302    106 105154.604   105163.525   105778.130
+490  FLU+F+R6      52457.817    108 105131.634   105140.899   105766.924
+502  rtREV+R5      51656.928    87  103487.855   103493.832   103999.616
+503  rtREV+R6      51656.259    89  103490.518   103496.775   104014.044
+515  rtREV+F+R5    51332.776    106 102877.551   102886.471   103501.077
+516  rtREV+F+R6    51329.968    108 102875.937   102885.202   103511.227
+528  cpREV+R5      51862.739    87  103899.478   103905.455   104411.240
+529  cpREV+R6      51859.920    89  103897.840   103904.098   104421.366
+541  cpREV+F+R5    51662.092    106 103536.183   103545.103   104159.709
+542  cpREV+F+R6    51659.490    108 103534.980   103544.246   104170.270
+Akaike Information Criterion:           LG+F+R6
+Corrected Akaike Information Criterion: LG+F+R6
+Bayesian Information Criterion:         LG+F+R5
+Best-fit model: LG+F+R5 chosen according to BIC
+
+All model information printed to /home/ec2-user/labs/lab5-L5-BShi/AMPL/AMPL.homologs.al.fas.model.gz
+CPU time for ModelFinder: 3854.616 seconds (1h:4m:14s)
+Wall-clock time for ModelFinder: 1940.240 seconds (0h:32m:20s)
+Generating 1000 samples for ultrafast bootstrap (seed: 49041)...
+
+NOTE: 35 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -51182.486
+Optimal log-likelihood: -51182.373
+Site proportion and rates:  (0.073,0.052) (0.204,0.245) (0.296,0.619) (0.312,1.333) (0.115,3.022)
+Parameters optimization took 1 rounds (0.626 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.190278 sec (of wall-clock time) 0.383582 sec(of CPU time)
+Computing RapidNJ tree took 0.000596 sec (of wall-clock time) 0.001187 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -51275.703
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.557 second
+Computing log-likelihood of 98 initial trees ... 5.769 seconds
+Current best score: -51182.373
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -51182.266
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -51162.142
+Iteration 10 / LogL: -51189.768 / Time: 0h:0m:24s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 11: -51160.470
+Iteration 20 / LogL: -51167.528 / Time: 0h:0m:40s
+Finish initializing candidate tree set (16)
+Current best tree score: -51160.470 / CPU time: 39.166
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -51163.671 / Time: 0h:0m:52s (0h:2m:27s left)
+Iteration 40 / LogL: -51168.470 / Time: 0h:1m:4s (0h:1m:58s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -51160.227
+Iteration 50 / LogL: -51160.493 / Time: 0h:1m:17s (0h:1m:36s left)
+Log-likelihood cutoff on original alignment: -51203.740
+Iteration 60 / LogL: -51161.715 / Time: 0h:1m:31s (0h:1m:19s left)
+Iteration 70 / LogL: -51164.070 / Time: 0h:1m:42s (0h:1m:0s left)
+Iteration 80 / LogL: -51160.580 / Time: 0h:1m:53s (0h:0m:44s left)
+Iteration 90 / LogL: -51174.248 / Time: 0h:2m:4s (0h:0m:29s left)
+Iteration 100 / LogL: -51165.284 / Time: 0h:2m:16s (0h:0m:15s left)
+Log-likelihood cutoff on original alignment: -51203.740
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+Iteration 110 / LogL: -51164.659 / Time: 0h:2m:28s (0h:2m:2s left)
+TREE SEARCH COMPLETED AFTER 112 ITERATIONS / Time: 0h:2m:30s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -51160.227
+2. Current log-likelihood: -51160.157
+3. Current log-likelihood: -51160.064
+4. Current log-likelihood: -51159.973
+5. Current log-likelihood: -51159.885
+6. Current log-likelihood: -51159.800
+7. Current log-likelihood: -51159.716
+8. Current log-likelihood: -51159.634
+9. Current log-likelihood: -51159.554
+10. Current log-likelihood: -51159.475
+11. Current log-likelihood: -51159.398
+12. Current log-likelihood: -51159.322
+13. Current log-likelihood: -51159.248
+14. Current log-likelihood: -51159.175
+15. Current log-likelihood: -51159.104
+16. Current log-likelihood: -51159.047
+17. Current log-likelihood: -51158.990
+18. Current log-likelihood: -51158.934
+19. Current log-likelihood: -51158.879
+20. Current log-likelihood: -51158.825
+21. Current log-likelihood: -51158.771
+22. Current log-likelihood: -51158.718
+23. Current log-likelihood: -51158.666
+24. Current log-likelihood: -51158.615
+25. Current log-likelihood: -51158.565
+26. Current log-likelihood: -51158.515
+27. Current log-likelihood: -51158.466
+28. Current log-likelihood: -51158.418
+29. Current log-likelihood: -51158.370
+30. Current log-likelihood: -51158.323
+31. Current log-likelihood: -51158.278
+32. Current log-likelihood: -51158.233
+33. Current log-likelihood: -51158.190
+34. Current log-likelihood: -51158.147
+35. Current log-likelihood: -51158.105
+36. Current log-likelihood: -51158.064
+37. Current log-likelihood: -51158.023
+38. Current log-likelihood: -51157.982
+39. Current log-likelihood: -51157.943
+40. Current log-likelihood: -51157.904
+41. Current log-likelihood: -51157.867
+42. Current log-likelihood: -51157.831
+43. Current log-likelihood: -51157.795
+44. Current log-likelihood: -51157.759
+45. Current log-likelihood: -51157.724
+46. Current log-likelihood: -51157.690
+47. Current log-likelihood: -51157.656
+48. Current log-likelihood: -51157.623
+49. Current log-likelihood: -51157.590
+50. Current log-likelihood: -51157.557
+51. Current log-likelihood: -51157.526
+52. Current log-likelihood: -51157.494
+53. Current log-likelihood: -51157.463
+54. Current log-likelihood: -51157.433
+55. Current log-likelihood: -51157.416
+56. Current log-likelihood: -51157.388
+57. Current log-likelihood: -51157.372
+58. Current log-likelihood: -51157.355
+59. Current log-likelihood: -51157.326
+60. Current log-likelihood: -51157.313
+61. Current log-likelihood: -51157.296
+62. Current log-likelihood: -51157.280
+63. Current log-likelihood: -51157.252
+64. Current log-likelihood: -51157.239
+65. Current log-likelihood: -51157.223
+66. Current log-likelihood: -51157.207
+67. Current log-likelihood: -51157.193
+68. Current log-likelihood: -51157.178
+69. Current log-likelihood: -51157.162
+70. Current log-likelihood: -51157.148
+71. Current log-likelihood: -51157.132
+72. Current log-likelihood: -51157.118
+73. Current log-likelihood: -51157.105
+74. Current log-likelihood: -51157.090
+75. Current log-likelihood: -51157.078
+76. Current log-likelihood: -51157.063
+77. Current log-likelihood: -51157.051
+78. Current log-likelihood: -51157.037
+79. Current log-likelihood: -51157.023
+80. Current log-likelihood: -51157.011
+81. Current log-likelihood: -51156.996
+82. Current log-likelihood: -51156.985
+83. Current log-likelihood: -51156.971
+84. Current log-likelihood: -51156.959
+85. Current log-likelihood: -51156.947
+86. Current log-likelihood: -51156.936
+87. Current log-likelihood: -51156.925
+88. Current log-likelihood: -51156.913
+89. Current log-likelihood: -51156.902
+90. Current log-likelihood: -51156.889
+91. Current log-likelihood: -51156.878
+92. Current log-likelihood: -51156.866
+93. Current log-likelihood: -51156.855
+94. Current log-likelihood: -51156.845
+95. Current log-likelihood: -51156.833
+96. Current log-likelihood: -51156.821
+97. Current log-likelihood: -51156.811
+Optimal log-likelihood: -51156.796
+Site proportion and rates:  (0.063,0.035) (0.206,0.234) (0.299,0.608) (0.317,1.326) (0.115,3.024)
+Parameters optimization took 97 rounds (53.409 sec)
+BEST SCORE FOUND : -51156.796
+Creating bootstrap support values...
+Split supports printed to NEXUS file /home/ec2-user/labs/lab5-L5-BShi/AMPL/AMPL.homologs.al.fas.splits.nex
+Total tree length: 33.716
+
+Total number of iterations: 112
+CPU time used for tree search: 295.284 sec (0h:4m:55s)
+Wall-clock time used for tree search: 149.232 sec (0h:2m:29s)
+Total CPU time used: 404.549 sec (0h:6m:44s)
+Total wall-clock time used: 204.234 sec (0h:3m:24s)
+
+Computing bootstrap consensus tree...
+Reading input file /home/ec2-user/labs/lab5-L5-BShi/AMPL/AMPL.homologs.al.fas.splits.nex...
+41 taxa and 292 splits.
+Consensus tree written to /home/ec2-user/labs/lab5-L5-BShi/AMPL/AMPL.homologs.al.fas.contree
+Reading input trees file /home/ec2-user/labs/lab5-L5-BShi/AMPL/AMPL.homologs.al.fas.contree
+Log-likelihood of consensus tree: -51159.690
+
+Analysis results written to: 
+  IQ-TREE report:                /home/ec2-user/labs/lab5-L5-BShi/AMPL/AMPL.homologs.al.fas.iqtree
+  Maximum-likelihood tree:       /home/ec2-user/labs/lab5-L5-BShi/AMPL/AMPL.homologs.al.fas.treefile
+  Likelihood distances:          /home/ec2-user/labs/lab5-L5-BShi/AMPL/AMPL.homologs.al.fas.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /home/ec2-user/labs/lab5-L5-BShi/AMPL/AMPL.homologs.al.fas.splits.nex
+  Consensus tree:                /home/ec2-user/labs/lab5-L5-BShi/AMPL/AMPL.homologs.al.fas.contree
+  Screen log file:               /home/ec2-user/labs/lab5-L5-BShi/AMPL/AMPL.homologs.al.fas.log
+
+Date and Time: Fri Sep 23 20:10:11 2022
